@@ -32,14 +32,14 @@ function alertar(event){
     saida.innerText = "Delta: " + del +
                       "\nX1 e X2 são: " + x1;
     
-    document.getElementById("saida-de-dados").style.backgroundColor="#7ac0fa";
+    document.getElementById("saida-de-dados").style.backgroundColor="#74b6a2";
     document.getElementById("saida-de-dados").style.border="#000000 3px solid";
     }
     else if(del<0){
         saida.innerText = "Delta: " + del +
                       "\nPor tanto, não é possivel calcular X1 e X2";
     
-    document.getElementById("saida-de-dados").style.backgroundColor="#7ac0fa";
+    document.getElementById("saida-de-dados").style.backgroundColor="#74b6a2";
     document.getElementById("saida-de-dados").style.border="#000000 3px solid";
     }
     else{
@@ -47,7 +47,7 @@ function alertar(event){
                       "\nX1: " + x1 +
                       "\nX2: " + x2;
     
-    document.getElementById("saida-de-dados").style.backgroundColor="#7ac0fa";
+    document.getElementById("saida-de-dados").style.backgroundColor="#74b6a2";
     document.getElementById("saida-de-dados").style.border="#000000 3px solid"; 
     }
 }
